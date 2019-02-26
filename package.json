@@ -1,0 +1,14 @@
+{
+  "name": "manage-cli",
+  "version": "0.0.1",
+  "description": "Manage your bash configuration from a CLI",
+  "main": "manage.js",
+  "author": "Nick Lucas <nicholas.lucas06@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "manage": "node manage.js"
+  },
+  "dependencies": {
+    "commander": "^2.19.0"
+  }
+}
