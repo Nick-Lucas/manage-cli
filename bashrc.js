@@ -14,6 +14,22 @@ module.exports = {
   write: (lines) => {
     const body = lines.join('\n')
     fs.writeFileSync(filePath, body)
+  },
+  reload: () => {
+    // TODO: find a way to force the parent shell to reload
+    //
+    // const exec = require('child_process').exec
+    // const result = exec(`source "${filePath}"`)
+    // result.on('exit', code => {
+    //   if (code === 0) {
+    //     console.log("Updated your .bashrc")
+    //   } else {
+    //     console.error("Could not reload your .bashrc")
+    //   }
+    // })
+
+    console.log("Now reload your .bashrc:\n")
+    console.log(`    source "${filePath}"\n`)
   }
 }
 

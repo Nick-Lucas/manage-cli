@@ -5,5 +5,5 @@ const program = require("commander")
 
 program
   .version(package.version)
-  .command("aliases <cmd>", 'manage your bash aliases')
+  .command("alias <cmd>", 'manage your bash aliases')
   .parse(process.argv)
