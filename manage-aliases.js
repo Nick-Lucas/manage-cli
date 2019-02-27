@@ -81,6 +81,5 @@ program
       lines.splice(alias.lineNumber, 1)
       writeBashRC(lines)
     })
-  
-  
+
 program.parse(process.argv)

@@ -8,6 +8,9 @@
   "scripts": {
     "manage": "node manage.js"
   },
+  "bin": {
+    "manage": "./manage.js"
+  },
   "dependencies": {
     "commander": "^2.19.0"
   }
