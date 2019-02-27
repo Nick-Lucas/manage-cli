@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Manage your bash configuration from a CLI",
   "main": "manage.js",
-  "author": "Nick Lucas <nicholas.lucas06@gmail.com>",
+  "author": "Nick Lucas <me@nicklucas.co.uk>",
   "license": "MIT",
   "scripts": {
     "manage": "node manage.js"
